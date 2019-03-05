@@ -8,7 +8,11 @@
 // let anotherFunction = function (param) {
 //   return param;
 // };
-// anotherFunction("Example");
+// anotherFunction("Example"); 
+
+let anotherFunction = (param) => param 
+
+anotherFunction; 
 
 // let add = function (param1, param2) {
 //   return param1 + param2;

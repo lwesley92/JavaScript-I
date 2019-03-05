@@ -17,28 +17,79 @@ const example = {
   "gender": "F"
 }
 
-// Write your intern objects here:
+// Write your intern objects here: 
+const Intern1 = {
+  "id": 1,
+  "name": "Mitzi's",
+  "email": "mmelloy0@psu.edu",
+  "gender": "F" 
+} 
+
+const Intern2 = {
+  "id": 2,
+  "name": "Kennan",
+  "email": "kdiben1@tinypic.com",
+  "gender": "m" 
+} 
+
+const Intern3 = {
+  "id": 3,
+  "name": "kevin",
+  "email": "kmummery2@wikimedia.org",
+  "gender": "m" 
+} 
+
+const Intern4 = {
+  "id": 4,
+  "name": "Giannie",
+  "email": "gmartinson3@illinois.edu",
+  "gender": "m"   
+} 
+
+const Intern5 = {
+  "id": 5,
+  "name": "Antoinetta",
+  "email": "adaine5@samsung.com",
+  "gender": "F"  
+}
 
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
-// Mitzi's name
+// Mitzi's name 
+console.log(Intern5.name);  
 
-// Kennan's ID
+// Kennan's ID 
+console.log(Intern2.id);
+// Keven's email 
+console.log(Intern3.email);
 
-// Keven's email
+// Gannie's name  
+console.log(Intern4.name);
 
-// Gannie's name
+// Antonietta's Gender 
+console.log(Intern5.gender); 
 
-// Antonietta's Gender
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-// console.log(kennan.speak());
+// console.log(kennan.speak()); 
+// Intern2.speak = function (){
+//   return "Hello, my name is Kennan!"; 
+// } 
+// console.log(intern2.speak());
+  
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-//console.log(antonietta.multiplyNums(3,4));
+//console.log(antonietta.multiplyNums(3,4));  
+let x = 3; 
+let y = 4; 
+
+let z = x * y; 
+
+console.log(z); 
+
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
@@ -61,4 +112,8 @@ const parent = {}
 
 // Have the child speak
 
-// Have the grandchild speak
+// Have the grandchild speak 
+
+
+
+
